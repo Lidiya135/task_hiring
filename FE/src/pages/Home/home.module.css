@@ -1,0 +1,44 @@
+.page{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(133, 233, 183); */
+}
+.box h1{
+    text-align: center;
+}
+.card{
+    border: 1px solid black;
+    width: 250px;
+    padding-left: 30px;
+    background-color: rgb(133, 233, 183);
+}
+.baris{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* background-color: aquamarine; */
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.pagination{
+    /* background-color: antiquewhite; */
+    display: flex;
+    gap: 200px;
+    justify-content:center;
+    padding: 50px;
+}
+.view{
+    display: flex;
+    gap: 15px;
+    /* background-color: brown; */
+}
+/* .qty{
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 0px 7px;
+    border-radius: 7px;
+} */
+.next{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,19 @@
+.register {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 300px;
+}
+.login{
+    width: 520px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+}
+.blue{
+    background-color: rgb(73, 221, 73);
+    color: white;
+    font-size: 16px;
+}
