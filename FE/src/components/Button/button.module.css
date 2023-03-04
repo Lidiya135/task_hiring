@@ -17,3 +17,21 @@
     color: white;
     font-size: 16px;
 }
+.edit{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+}
+.delete{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.red{
+    background-color: rgb(221, 73, 73);
+    color: white;
+    font-size: 16px;
+}

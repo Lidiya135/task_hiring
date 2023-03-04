@@ -4,7 +4,7 @@ import swal from "sweetalert";
 export const  registerUser = (data,navigate) => async (dispact) =>{
     try{
         dispact({type:"REGISTER_LOGIN_PENDING"})
-        const result = await axios.post("http://localhost:3000/users/register",data)
+        const result = await axios.post("http://localhost:3007/users/register",data)
         const user = result.data.data
         console.log(user);
         dispact({type:"USER_REGISTER_SUCCESS",payload: user});

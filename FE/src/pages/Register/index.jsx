@@ -31,7 +31,9 @@ export default function Register() {
       let data = {
         email,password,nama_depan,nama_belakang,alamat,phone
       }
+      console.log(data, "before")
       dispatch(registerUser(data,navigate))
+      console.log(data, "after")
     }
 
     return (
